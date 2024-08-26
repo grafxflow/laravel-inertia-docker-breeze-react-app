@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\RedirectResponse;
-use App\Http\Requests\UserUpdateRequest;
 use App\Http\Requests\UserStoreRequest;
-use Illuminate\Support\Facades\Redirect;
-use Illuminate\Support\Facades\Hash;
-use Illuminate\Http\Request;
+use App\Http\Requests\UserUpdateRequest;
 use App\Models\User;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Redirect;
 use Inertia\Inertia;
 use Inertia\Response;
 
@@ -40,7 +40,7 @@ class UsersController extends Controller
     public function update(UserUpdateRequest $request): RedirectResponse
     {
         // Removes password field if it's null
-        if (!$request->password) {
+        if (! $request->password) {
             unset($request['password']);
         }
 
