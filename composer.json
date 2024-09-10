@@ -15,12 +15,12 @@
     },
     "require-dev": {
         "fakerphp/faker": "^1.23.1",
-        "laravel/breeze": "^2.1.4",
+        "laravel/breeze": "^2.1.5",
         "laravel/pint": "^1.17.3",
         "laravel/sail": "^1.31.3",
         "mockery/mockery": "^1.6.12",
         "nunomaduro/collision": "^8.4.0",
-        "phpunit/phpunit": "^10.5.32",
+        "phpunit/phpunit": "^10.5.33",
         "spatie/laravel-ignition": "^2.8"
     },
     "autoload": {
