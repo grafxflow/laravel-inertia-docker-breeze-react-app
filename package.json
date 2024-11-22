@@ -6,17 +6,17 @@
         "build": "vite build"
     },
     "devDependencies": {
-        "@headlessui/react": "^2.1.10",
+        "@headlessui/react": "^2.2.0",
         "@inertiajs/react": "^1.2.0",
         "@tailwindcss/forms": "^0.5.9",
-        "@vitejs/plugin-react": "^4.3.2",
+        "@vitejs/plugin-react": "^4.3.3",
         "autoprefixer": "^10.4.20",
-        "laravel-vite-plugin": "^1.0.5",
-        "postcss": "^8.4.47",
+        "laravel-vite-plugin": "^1.0.6",
+        "postcss": "^8.4.49",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
-        "tailwindcss": "^3.4.14",
-        "vite": "^5.4.9"
+        "tailwindcss": "^3.4.15",
+        "vite": "^5.4.11"
     },
     "dependencies": {
         "axios": "^1.7.7"
