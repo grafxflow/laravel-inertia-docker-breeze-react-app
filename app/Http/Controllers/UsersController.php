@@ -40,7 +40,7 @@ class UsersController extends Controller
     public function update(UserUpdateRequest $request): RedirectResponse
     {
         // Removes password field if it's null
-        if (! $request->password) {
+        if ( ! $request->password) {
             unset($request['password']);
         }
 
